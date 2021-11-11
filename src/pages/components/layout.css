@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: lightgrey;
+  height: 70px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
